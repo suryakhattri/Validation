@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3CFF251D204477C7003D542A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF251C204477C7003D542A /* AppDelegate.swift */; };
-		3CFF251F204477C7003D542A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF251E204477C7003D542A /* ViewController.swift */; };
 		3CFF2522204477C8003D542A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFF2520204477C8003D542A /* Main.storyboard */; };
 		3CFF2524204477C8003D542A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFF2523204477C8003D542A /* Assets.xcassets */; };
 		3CFF2527204477C8003D542A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFF2525204477C8003D542A /* LaunchScreen.storyboard */; };
 		3CFF2532204477C8003D542A /* PhoneNumberRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF2531204477C8003D542A /* PhoneNumberRegistrationTests.swift */; };
 		3CFF253D204477C8003D542A /* PhoneNumberRegistrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF253C204477C8003D542A /* PhoneNumberRegistrationUITests.swift */; };
+		3CFF254B20447BE4003D542A /* PhoneNumberValidationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF254A20447BE4003D542A /* PhoneNumberValidationVC.swift */; };
+		3CFF254D20448DAD003D542A /* PhoneNumberRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF254C20448DAD003D542A /* PhoneNumberRegistrationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		3CFF2519204477C7003D542A /* PhoneNumberRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneNumberRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFF251C204477C7003D542A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CFF251E204477C7003D542A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CFF2521204477C8003D542A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CFF2523204477C8003D542A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CFF2526204477C8003D542A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		3CFF2538204477C8003D542A /* PhoneNumberRegistrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneNumberRegistrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFF253C204477C8003D542A /* PhoneNumberRegistrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberRegistrationUITests.swift; sourceTree = "<group>"; };
 		3CFF253E204477C8003D542A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFF254A20447BE4003D542A /* PhoneNumberValidationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberValidationVC.swift; sourceTree = "<group>"; };
+		3CFF254C20448DAD003D542A /* PhoneNumberRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberRegistrationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				3CFF251C204477C7003D542A /* AppDelegate.swift */,
-				3CFF251E204477C7003D542A /* ViewController.swift */,
+				3CFF254A20447BE4003D542A /* PhoneNumberValidationVC.swift */,
 				3CFF2520204477C8003D542A /* Main.storyboard */,
+				3CFF254C20448DAD003D542A /* PhoneNumberRegistrationVC.swift */,
 				3CFF2523204477C8003D542A /* Assets.xcassets */,
 				3CFF2525204477C8003D542A /* LaunchScreen.storyboard */,
 				3CFF2528204477C8003D542A /* Info.plist */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFF251F204477C7003D542A /* ViewController.swift in Sources */,
 				3CFF251D204477C7003D542A /* AppDelegate.swift in Sources */,
+				3CFF254B20447BE4003D542A /* PhoneNumberValidationVC.swift in Sources */,
+				3CFF254D20448DAD003D542A /* PhoneNumberRegistrationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
